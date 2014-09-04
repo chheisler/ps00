@@ -1,0 +1,11 @@
+Date   Who       Start  Stop   Interruptions  Question  TimeOnTask  Comments
+09/04  CH        10:00  10:15  0              1         15          Created CCIS account
+09/04  CH        10:15  10:30  0              1         15          Signed up for CS5010 on Piazza
+09/04  CH        10:30  10:45  0              1         15          Downloaded and installed Racket
+09/04  CH        14:20  15:20  0              4         60          Created git repository ps00
+============committing to git: 09/04 17:15===================
+
+Total Time On Task Q1 (minutes)                 45
+TOTQ1 (hours and tenths)                        0.8
+Total Time On Task Q4 (minutes)                 60
+TOTQ4 (hours and tenths)                        1.0
