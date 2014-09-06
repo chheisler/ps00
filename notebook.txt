@@ -4,8 +4,12 @@ Date   Who       Start  Stop   Interruptions  Question  TimeOnTask  Comments
 09/04  CH        10:30  10:45  0              1         15          Downloaded and installed Racket
 09/04  CH        14:20  15:20  0              4         60          Created git repository ps00
 ============committing to git: 09/04 17:15===================
+09/05  CH        19:45  21:35  10             2         100         Initial solutions for exercises 1-10
+============committing to git: 09/05 21:40===================
 
 Total Time On Task Q1 (minutes)                 45
 TOTQ1 (hours and tenths)                        0.8
+Total Time On Task Q2 (minutes)                 100
+TOTQ2 (hours and tenths)                        1.7
 Total Time On Task Q4 (minutes)                 60
 TOTQ4 (hours and tenths)                        1.0
