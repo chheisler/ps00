@@ -10,10 +10,12 @@ Date   Who       Start  Stop   Interruptions  Question  TimeOnTask  Comments
 ============committing to git: 09/06 13:40===================
 ============committing to git: 09/06 13:45===================
 09/06  CH        14:20  14:50  0              3         30          Did laboratory exercise: using git
-============committing to git: 09/06 14:55===================
+============committing to git: 09/06 15:10===================
+09/07  CH        20:50  21:30  0              1         40          Uploaded gravatar for github
+============committing to git: 09/07 21:30===================
 
-Total Time On Task Q1 (minutes)                 45
-TOTQ1 (hours and tenths)                        0.8
+Total Time On Task Q1 (minutes)                 85
+TOTQ1 (hours and tenths)                        1.4
 Total Time On Task Q2 (minutes)                 150
 TOTQ2 (hours and tenths)                        2.5
 Total Time On Task Q3 (minutes)                 30
