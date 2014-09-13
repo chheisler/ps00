@@ -22,6 +22,8 @@
 ; make-point : Real Real -> Point
 ; GIVEN an x and y position
 ; RETURNS a point at that position on a 2D plane
+; Examples:
+; (make-point 12 16) => (make-point 12 16)
 
 ; point? : Any -> Boolean
 ; GIVEN any value
@@ -45,9 +47,17 @@
 ; (pointpy (make-point 7 2)) => 2
 
 ; tests for point functions
+(check-expect (make-point 12 16) (make-point 12 16))
 (check-expect (point? (make-point  5 4)) true)
 (check-expect (point? "Hodor!") false)
 (check-expect (point-x (make-point 3 5)) 3)
 (check-expect (point-x (make-point 7 2)) 7)
 (check-expect (point-y (make-point 3 5)) 5)
 (check-expect (point-y (make-point 7 2)) 2)
+
+; make point functions available to other modules
+(require "./extras.rkt")
+(provide make-point)
+(provide point?)
+(provide point-x)
+(provide point-y)
