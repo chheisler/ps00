@@ -13,10 +13,10 @@
 ; y is the position on the y-axis
 ;
 ; point-fn : Point -> ??
-; (define (point-fn Point)
+; (define (point-fn point)
 ;   (...
-;     (point-x Point)
-;     (point-y Point))
+;     (point-x point)
+;     (point-y point)))
 (define-struct point (x y))
 
 ; make-point : Real Real -> Point
