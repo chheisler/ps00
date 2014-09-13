@@ -1,0 +1,8 @@
+;; The first three lines of this file were inserted by DrRacket. They record metadata
+;; about the language level of this file in a form that our tools can easily process.
+#reader(lib "htdp-beginner-reader.ss" "lang")((modname |23|) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f ())))
+; Exercise 23 for Lesson 0.4
+; An expression whose value is a list of booleans
+; starting with true and alternating
+
+(cons true (cons false (cons true (cons false (cons true empty)))))
