@@ -1,6 +1,6 @@
 Date   Who       Start  Stop   Interruptions  Question  TimeOnTask  Comments
 09/13  CH        14:30  16:40  0              2         130         Did exercises 11-18
 ============committing to git: 09/13 16:45============
-
+09/13  CH        16:50  
 Total Time On Task Q2 (minutes)                 130
 TOTQ2 (hours and tenths)                        2.1
