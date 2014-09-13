@@ -11,7 +11,7 @@
 ;
 ; Interpretation:
 ; id is a positive integer uniquely identifying the student
-; name is the name of the student
+; name is the full name of the student
 ; major is the name of the student's major
 ;
 ; student-fn : Student -> ??
