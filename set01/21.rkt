@@ -164,9 +164,8 @@
 (define (person-image person)
   (above (head-image person)
   (upper-body-image person)
-  (lower-body-image person)))
-  
-; make this function available in other modules
-(require "./extras.rkt")
-(provide person-image)
+  (lower-body-image person)
+  (text (string-append (person-first-name person)
+    " " (person-last-name person)) 16 "black")))
+
 (person-image (make-person "John" "Snow" 25 175 75))
