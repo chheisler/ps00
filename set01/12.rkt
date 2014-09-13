@@ -5,7 +5,7 @@
 ; Tests to see if predictions for point functions
 ; return values are accurate
 
-; import Point definition from exercise 11
+; import Point functions from exercise 11
 (require "./11.rkt")
 
 ; tests for predictions
