@@ -19,6 +19,12 @@
     [(empty? lst) 0]
     [else (+ 1 (list-length (rest lst)))]))
 
+; combined-string : ListOfString -> String
+; GIVEN a list of strings
+; RETURNS the strings combined and separated by spaces
+; Examples:
+; (combined-string (list "Hello" "world!")) => "Hello world!"
+; (combined-string empty
 (define (combined-string string-list)
   (cond
     [(empty? string-list) ""]
@@ -32,3 +38,7 @@
 (list-length empty)
 (list-length (list 2 41 432 1 3))
 (strings-image (list "Hello" "World" "What" "Is" "Up"))
+
+; make list-length available in other modules
+(require "./extras.rkt")
+(provide list-length)
