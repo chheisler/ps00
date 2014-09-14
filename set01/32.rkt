@@ -8,6 +8,17 @@
 ;import point functions from exercise 11
 (require "./11.rkt")
 
+; dist-from-origin : Point -> NonNegReal
+; GIVEN a point on a 2D plane
+; RETURNS its distance from the origin (0,0)
+; using Manhattan distance
+; Examples
+; (dist-from-origin (make-point 0 0)) => 0
+; (dist-from-origin (make-point -5 -3)) => 8
+; (dist-from-origin (make-point 11 2)) => 13
+(define (dist-from-origin point)
+  (+ (abs (point-x point)) (abs (point-y point))))
+  
 ; total-distance : ListOfPoint -> NonNegReal
 ; GIVEN a list of points on a 2D plane
 ; RETURNS the sum of their total distances
@@ -19,9 +30,13 @@
 (define (total-distance point-list)
   (cond
     [(empty? point-list) 0]
-    [else (+ (abs (point-x (first point-list)))
-      (abs (point-y (first point-list)))
+    [else (+ (dist-from-origin (first point-list))
       (total-distance (rest point-list)))]))
+
+; tests for dist-from-origin
+(check-expect (dist-from-origin (make-point 0 0)) 0)
+(check-expect (dist-from-origin (make-point -5 -3)) 8)
+(check-expect (dist-from-origin (make-point 11 2)) 13)
 
 ; tests for total-distance
 (check-expect (total-distance empty) 0)
